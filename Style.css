@@ -1,0 +1,78 @@
+body{
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: sans-serif;
+  font-style: Helvetica;
+}
+
+/* Contenitore */
+.container{
+  width: 50%;
+  margin: auto;
+  border-radius: 2%;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Intestazione */
+
+header{
+  text-align: center;
+  color: #00dd00;
+}
+
+/* Opzioni selezionabile */
+.option{
+  background-color: #00dd00;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Scooter */
+.scooter{
+  margin-top: 20px;
+
+}
+
+/* Distanza */
+.Distanza{
+  display: inline-block;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* I 3 moschettieri " Non c'era posto per Porthos "*/
+#caricaDArtagnan{
+  margin-right: 60%;
+  background-color: orange;
+  border: 1px;
+  border-color: orange;
+  border-radius: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 14px;
+}
+
+#caricaAramis{
+  margin-right: 25%;
+  background-color: lightgreen;
+  border: 1px;
+  border-color: lightgreen;
+  border-radius: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 14px;
+}
+
+#caricaAthos{
+  margin-right: 85%;
+  background-color: red;
+  border: 1px;
+  border-color: red;
+  border-radius: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 14px;
+}
