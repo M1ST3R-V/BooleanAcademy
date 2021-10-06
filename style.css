@@ -41,11 +41,11 @@ main{
   height: 100px;
 }
 
-.scooter{
+.section{
   margin-top: 30px;
 }
 
-div.scooter > h2{
+section.scooter > h2{
   display: inline-block;
   margin-left: 5px;
 }
