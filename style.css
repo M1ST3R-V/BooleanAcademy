@@ -1,29 +1,27 @@
-*{
+*{ /* selettore universale */
   margin: 0;
   box-sizing: border-box;
 }
 
 body{
-  background-image: url(img/background.jpg);
+  background-image: url('img/background.jpg');
   background-size: cover;
 }
 
 .conteiner{
-  width: 1400px;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 100px 100px;
+  width: 1400px; 
+  margin: auto; 
+  margin-top: 230px; 
+  padding: 100px; 
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   font-family: 'Poppins', sans-serif;
 }
 
-header, nav{
-  text-align: center;.
-}
+header, nav{ 
+  text-align: center; 
 
-header > h1{
+header > h1{ 
   color: #00dd00;
 }
 
@@ -41,21 +39,18 @@ main{
   height: 100px;
 }
 
-.section{
-  margin-top: 30px;
-}
-
-section.scooter > h2{
+section > h2{ 
   display: inline-block;
-  margin-left: 5px;
-}
+  margin-left: 5px; 
 
-div.scooter-detail > span{
-  display: block;
-}
+div > span{
+  display: block; 
 
+.scooter{
+  margin-top: 50px; 
+}
 /* Freccia indecativa */
-.scooter-position:before{
+.scooter-position:before{ 
   content: "\21A6";
 }
 
